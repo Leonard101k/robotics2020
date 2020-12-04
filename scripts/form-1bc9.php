@@ -22,17 +22,26 @@ Thank you!',
     'required' => 'Field \'name\' is required.'
     )
     ),
-    'name-1' => array(
+    'name-2' => array(
     'order' => 2,
     'type' => 'string',
-    'label' => 'name-1',
+    'label' => 'Name',
     'required' => true,
     'errors' => array(
-    'required' => 'Field \'name-1\' is required.'
+    'required' => 'Field \'Name\' is required.'
+    )
+    ),
+    'name-1' => array(
+    'order' => 3,
+    'type' => 'string',
+    'label' => 'Name',
+    'required' => true,
+    'errors' => array(
+    'required' => 'Field \'Name\' is required.'
     )
     ),
     'email' => array(
-    'order' => 3,
+    'order' => 4,
     'type' => 'email',
     'label' => 'Email',
     'required' => true,
@@ -41,7 +50,7 @@ Thank you!',
     )
     ),
     'address' => array(
-    'order' => 4,
+    'order' => 5,
     'type' => 'string',
     'label' => 'Address',
     'required' => false,
@@ -50,7 +59,7 @@ Thank you!',
     )
     ),
     'phone' => array(
-    'order' => 5,
+    'order' => 6,
     'type' => 'tel',
     'label' => 'Phone',
     'required' => true,
@@ -59,7 +68,7 @@ Thank you!',
     )
     ),
     'date' => array(
-    'order' => 6,
+    'order' => 7,
     'type' => 'string',
     'label' => 'Date',
     'required' => true,
@@ -67,8 +76,17 @@ Thank you!',
     'required' => 'Field \'Date\' is required.'
     )
     ),
+    'message' => array(
+    'order' => 8,
+    'type' => 'string',
+    'label' => 'Message',
+    'required' => true,
+    'errors' => array(
+    'required' => 'Field \'Message\' is required.'
+    )
+    ),
     'agree' => array(
-    'order' => 7,
+    'order' => 9,
     'type' => 'checkbox',
     'label' => 'I accept the Terms of Service',
     'required' => true,
